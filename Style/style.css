@@ -16,8 +16,9 @@
 /*navbar styling*/
 .navbar{
     position: fixed;
-    background-color: blueviolet;
     width: 100%;
+    padding: 15px 0;
+    background-color: blueviolet;
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
@@ -48,4 +49,16 @@
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url("./images/banner.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
 }
